@@ -27,7 +27,7 @@ function DMJ_SetRoomCode(c)
 end
 
 function DMJ_State()
-    c_announce(State)
+    print("当前弹幕机状态为"..(State or "nil"))
 end
 
 -- function DMJ_DisplaySettingPage()
